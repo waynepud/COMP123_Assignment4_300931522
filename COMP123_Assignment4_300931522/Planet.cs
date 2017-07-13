@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Wayne Pud
  * Date: July 13, 2017
  * Description: This is the planet abstract class
- * Version: 0.2 - Added private instance variables and public properties to the planet abstract class
+ * Version: 0.3 - Added main constructor and override method
  */
 
 namespace COMP123_Assignment4_300931522
@@ -16,7 +16,7 @@ namespace COMP123_Assignment4_300931522
     /// <summary>
     /// This is the planet abstract class
     /// </summary>
-    class Planet
+    public abstract class Planet
     {
         // private instance variables (fields)
         private double _diameter;
