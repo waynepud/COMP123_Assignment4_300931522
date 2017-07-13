@@ -101,11 +101,31 @@ namespace COMP123_Assignment4_300931522
             }
         }   
 
-
+        
+        /// <summary>
+        /// This is the main constructor of the planet abstract class that takes 3 parameters: name, diameter and mass and sets the values
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="diameter"></param>
+        /// <param name="mass"></param>
         // constructors -----------------------------------------------------------
+        public Planet(string name, double diameter, double mass)
+        {
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
+        }
 
         // private methods
 
         // public methods
+        /// <summary>
+        /// This public string override method will return Name, Diameter and Mass to console
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}", Name, Diameter, Mass);
+        }
     }
 }
