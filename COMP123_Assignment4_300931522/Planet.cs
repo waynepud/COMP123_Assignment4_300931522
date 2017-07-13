@@ -125,7 +125,7 @@ namespace COMP123_Assignment4_300931522
         /// <returns></returns>
         public override string ToString()
         {
-            return string.Format("{0} {1} {2}", Name, Diameter, Mass);
+            return string.Format("{0} | diameter = {1} km | mass = {2} kg", Name, Diameter, Mass);
         }
     }
 }
