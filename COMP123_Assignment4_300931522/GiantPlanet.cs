@@ -33,7 +33,7 @@ namespace COMP123_Assignment4_300931522
         // constructors -----------------------------------------------------------
         public GiantPlanet(string name, double diameter, double mass, string type) : base (name, diameter, mass)
         {
-            this._type = type;
+            this._type = type; //either gas or ice?
         }
 
 
