@@ -16,7 +16,7 @@ namespace COMP123_Assignment4_300931522
     /// <summary>
     /// This is the GiantPlanet subclass
     /// </summary>
-    public class GiantPlanet : Planet
+    public class GiantPlanet : Planet, IHasMoons
     {
         // private instance variables (fields)
         private string _type;
