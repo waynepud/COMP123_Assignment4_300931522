@@ -15,7 +15,7 @@ namespace COMP123_Assignment4_300931522
     /// <summary>
     /// This is the TerrestrialPlanet class
     /// </summary>
-    public class TerrestrialPlanet : Planet
+    public class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
         // private instance variables (fields)
         private bool _oxygen;

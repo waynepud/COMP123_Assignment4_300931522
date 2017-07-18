@@ -21,6 +21,7 @@
       <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="COMP123_Assignment4_300931522.IHasMoons">
     <Position X="11" Y="1.75" Width="1.5" />
