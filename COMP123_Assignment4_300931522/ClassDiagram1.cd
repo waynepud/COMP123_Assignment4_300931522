@@ -36,5 +36,12 @@
       <FileName>IHasRings.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Interface Name="COMP123_Assignment4_300931522.IHabitable">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHabitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
