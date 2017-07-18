@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Wayne Pud
  * Date: July 13, 2017
  * Description: This is the GiantPlanet subclass
- * Version: 0.1 - Created GiantPlanet Class and added variables and methods
+ * Version: 0.2 - Added the IHasMoons and IHasRings interface
  */
 
 namespace COMP123_Assignment4_300931522
@@ -16,7 +16,7 @@ namespace COMP123_Assignment4_300931522
     /// <summary>
     /// This is the GiantPlanet subclass
     /// </summary>
-    public class GiantPlanet : Planet, IHasMoons
+    public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         // private instance variables (fields)
         private string _type;
