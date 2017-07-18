@@ -5,9 +5,9 @@ using System.Text;
 
 /*
  * Name: Wayne Pud
- * Date: July 17, 2017
+ * Date: July 18, 2017
  * Description: This is the IHasMoons interface
- * Version: 0.1 - Created the IHasMoons interface
+ * Version: 0.2 - Added the method HasMoon();
  */
 
 namespace COMP123_Assignment4_300931522
@@ -17,11 +17,8 @@ namespace COMP123_Assignment4_300931522
     /// </summary>
     public interface IHasMoons
     {
-        // PUBLIC PROPERTIES
-        //bool HasMoon { get; set; }
-
-
-
+        //PUBLIC METHODS
+        bool HasMoon ();
 
     }
 }
