@@ -18,7 +18,7 @@ namespace COMP123_Assignment4_300931522
     public interface IHasMoons
     {
         //PUBLIC METHODS
-        bool HasMoon ();
+        bool HasMoons ();
 
     }
 }
