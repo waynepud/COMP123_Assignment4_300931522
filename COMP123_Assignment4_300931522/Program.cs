@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 /*
  * Name: Wayne Pud
- * Date: July 13, 2017
+ * Date: July 26, 2017
  * Description: Assignment 4 - Abstract planets
- * Version: 0.2 - Added the object creators
+ * Version: 0.3 - Edited ToString object calls
  */
 
 namespace COMP123_Assignment4_300931522
@@ -21,13 +21,19 @@ namespace COMP123_Assignment4_300931522
         static void Main(string[] args)
         {
             GiantPlanet giantplanet = new GiantPlanet("Jupiter", 139822, 1.898 * Math.Pow(10, 27), "Gas");
-            Console.WriteLine(giantplanet);
+            Console.WriteLine(giantplanet.ToString());
             TerrestrialPlanet terrestrialplanet = new TerrestrialPlanet("Earth", 12742, 5.972 * Math.Pow(10,24), true);
-            Console.WriteLine(terrestrialplanet);
+            Console.WriteLine(terrestrialplanet.ToString());
+
+            WaitForAnyKey();
 
 
+        }
 
-            // Wait for another key method?
+        static void WaitForAnyKey()
+        {
+            Console.WriteLine("\nPress any input key to continue:");
+            Console.ReadKey();
         }
     }
 }
