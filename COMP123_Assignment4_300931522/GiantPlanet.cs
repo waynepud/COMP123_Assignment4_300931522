@@ -52,7 +52,7 @@ namespace COMP123_Assignment4_300931522
         // private methods
         
         /// <summary>
-        /// These public bool methods will return true if the condition is satisfied
+        /// Extra: These public bool methods will return true if the condition is satisfied
         /// </summary>
         /// <returns></returns>
         // public methods
@@ -73,8 +73,7 @@ namespace COMP123_Assignment4_300931522
         public override string ToString()
         {
             string output = this.Name + " | " + " Diameter = " + this.Diameter + " km | Mass = " + this.Mass + " kg | Type = " + this._type;
-            return output;
-        
+            return output;        
         }
     }
 }

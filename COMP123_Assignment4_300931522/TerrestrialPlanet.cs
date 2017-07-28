@@ -5,9 +5,9 @@ using System.Text;
 
 /*
  * Name: Wayne Pud
- * Date: July 13, 2017
+ * Date: July 28, 2017
  * Description: This is the TerrestrialPlanet subclass
- * Version: 0.1 - Created TerrestrialPlanet Class and added variables and methods
+ * Version: 0.2 - Added ToString method specific to TerrestrialPlanet class to show oxygen
  */
 
 namespace COMP123_Assignment4_300931522
@@ -52,6 +52,15 @@ namespace COMP123_Assignment4_300931522
             return _oxygen = true;
         }
 
+        /// <summary>
+        /// Extra: This is the ToString method specific for TerrestrialPlanet Class
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string output = this.Name + " | " + " Diameter = " + this.Diameter + " km | Mass = " + this.Mass + " kg | Oxygen? = " + this._oxygen;
+            return output;
+        }
 
     }
 }

@@ -20,6 +20,7 @@ namespace COMP123_Assignment4_300931522
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("========================= Planets =============================");
             GiantPlanet giantplanet = new GiantPlanet("Jupiter", 139822, 1.898 * Math.Pow(10, 27), "Gas");
             Console.WriteLine(giantplanet.ToString());
 
