@@ -22,8 +22,14 @@ namespace COMP123_Assignment4_300931522
         {
             GiantPlanet giantplanet = new GiantPlanet("Jupiter", 139822, 1.898 * Math.Pow(10, 27), "Gas");
             Console.WriteLine(giantplanet.ToString());
+
             TerrestrialPlanet terrestrialplanet = new TerrestrialPlanet("Earth", 12742, 5.972 * Math.Pow(10,24), true);
             Console.WriteLine(terrestrialplanet.ToString());
+
+            // To test the HasMoons, HasRings and Habitable methods
+
+
+
 
             WaitForAnyKey();
 

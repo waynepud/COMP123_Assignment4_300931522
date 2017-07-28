@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 /*
  * Name: Wayne Pud
- * Date: July 13, 2017
+ * Date: July 28, 2017
  * Description: This is the GiantPlanet subclass
- * Version: 0.2 - Added the IHasMoons and IHasRings interface
+ * Version: 0.3 - Added ToString method for GiantPlanet class
  */
 
 namespace COMP123_Assignment4_300931522
@@ -64,6 +64,17 @@ namespace COMP123_Assignment4_300931522
         public bool HasRings()
         {
             return RingCount > 0;
+        }
+
+        /// <summary>
+        /// This ToString overrides the Planet ToString method for more specifics which include planet type for GiantPlanet class
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string output = this.Name + " | " + " Diameter = " + this.Diameter + " km | Mass = " + this.Mass + " kg | Type = " + this._type;
+            return output;
+        
         }
     }
 }
